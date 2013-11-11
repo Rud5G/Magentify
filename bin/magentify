@@ -49,7 +49,7 @@ files = {
 set :domain,      "#{application}.com"
 set :deploy_to,   "/var/www/#{domain}"
 
-set :repository,  "#{domain}:/var/repos/#{application}.git"
+set :repo_url,    "#{domain}:/var/repos/#{application}.git"
 set :scm,         :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `subversion`, `mercurial`, `perforce`, `subversion` or `none`
 

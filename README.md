@@ -20,7 +20,7 @@ set :domain,      "#{application}.com"
 set :deploy_to,   "/var/www/#{domain}"
 
 set :user,        "deploy"
-set :repository,  "git@github.com:user/project.git"
+set :repo_url,    "git@github.com:user/project.git"
 set :scm,         :git
 
 role :web,        "000.000.000.000"   # Your HTTP server, Apache/etc

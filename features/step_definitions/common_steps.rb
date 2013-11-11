@@ -28,7 +28,7 @@ Given /^an app$/ do
   # Write a custom deploy file to the app, using an ERB template
   deploy_variables = {
     :deploy_to => File.join(@test_files_dir, "deployed"),
-    :repository => @repo_dir,
+    :repo_url => @repo_dir,
     :git_executable => `which git`.strip,
     :logged_in_user => Etc.getlogin
   }
