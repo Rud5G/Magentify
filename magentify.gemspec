@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Magentify::VERSION
 
-  gem.add_dependency 'capistrano', ">= 2.5.10"
+  gem.add_dependency 'capistrano', '~> 2.15'
  
   gem.add_development_dependency 'capistrano', '~> 3.0.1'
 
