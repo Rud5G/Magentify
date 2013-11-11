@@ -1,4 +1,7 @@
 # require 'spec'
+require 'rspec/expectations'
+World(RSpec::Matchers)
+
 require 'erb'
 require 'etc'
 

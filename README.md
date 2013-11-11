@@ -56,3 +56,14 @@ For detailed information about how to configure and use Capistrano for deploymen
 6. Commit your changes (`git commit -am 'Added some feature'`)
 7. Push to the branch (`git push origin my-new-feature`)
 8. Create new Pull Request
+
+## Setup cucumber 
+
+1. Install rbenv
+2. gem install capistrano -v '2.15.5' 
+3. gem install cucumber
+4. gem install rspec-expectations
+5. sudo apt-get install openssh-server
+6. make it possible to ssh to localhost without password
+
+
